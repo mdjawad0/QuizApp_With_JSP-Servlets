@@ -1,11 +1,12 @@
-## #  QuizApp_With_JSP-Servlets
+#  QuizApp_With_JSP-Servlets
 Quiz web application built with JSP, Servlets, and JDBC, with admin and end-user modules integrated
 
-######  Tools required: JSP, Servlet, JDBC, Eclipse IDE, MySQL, and Tomcat 9.
+######  Tools required: JSP, Servlets, JDBC, Eclipse IDE, MySQL, and Tomcat 9.
 
 Steps to take in order for the application to work properly:
 
-##### Step 1: Configure the database:
+###  Step 1: Configure the database:
+
 -  Access the MySQL server from the terminal with the command: sudo mysql;
 
 - Then, create a database named quiz with command: create database quiz;
@@ -18,13 +19,13 @@ GRANT ALL PRIVILEGES ON quiz. * TO ‘jawadpasha’@‘localhost’;
 
 - Go to the** /db** directory and type **mysql -p quiz quiz.sql** to import the tables and records from the **.sql** file.
 
-##### Step 2: Set up the project with Tomcat and jar files:
+### Step 2: Set up the project with Tomcat and JAR files:
 
 - After importing the project into the Eclipse IDE or any other IDE, add a Tomcat server, and the apache-tomcat-9.0.70 version is required for this project. The zip file is available in the **/src/main/webapp/WEB-INF/** directory. Add the library and even include the external jar files from the **/src/main/webapp/WEB-INF/lib/ **directory.
 
 - Update the **DatabaseConnection.java** class in the** src/main/java/** package with the newly created user credentials or your VM MySQL credentials.
 
-##### Step 3: Execute the project:
+### Step 3: Execute the project:
 
 - Run the project on the server, and the application will be hosted at the following URL: **http://localhost:8080/quiz-app/**
 

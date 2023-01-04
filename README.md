@@ -33,7 +33,6 @@ GRANT ALL PRIVILEGES ON quiz. * TO ‘jawadpasha’@‘localhost’;
 
 - The admin login credentails are:
 
- Email: admin@gmail.com
- Password: 12345678
+	** Email:** admin@gmail.com and** Password: **12345678
 
 - An excel file containing questions and answers is required to launch the quiz, which can then be completed by end users.

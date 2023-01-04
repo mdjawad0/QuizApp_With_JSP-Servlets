@@ -7,9 +7,9 @@ Steps to take in order for the application to work properly:
 
 ###  Step 1: Configure the database:
 
--  Access the MySQL server from the terminal with the command: sudo mysql;
+-  Access the MySQL server from the terminal with the command: **sudo mysql;**
 
-- Then, create a database named quiz with command: create database quiz;
+- Then, create a database named quiz with command: **create database quiz;**
 - If the VM has root permissions, create a new user and grant the permissions using the following commands:
 
 ```sql

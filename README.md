@@ -1,7 +1,7 @@
 ## #  QuizApp_With_JSP-Servlets
 Quiz web application built with JSP, Servlets, and JDBC, with admin and end-user modules integrated
 
-######  Tools required: JSP, Servlets, JDBC, Eclipse IDE, MySQL, and Tomcat 9
+######  Tools required: JSP, Servlet, JDBC, Eclipse IDE, MySQL, and Tomcat 9.
 
 Steps to take in order for the application to work properly:
 
@@ -12,8 +12,8 @@ Steps to take in order for the application to work properly:
 - If the VM has root permissions, create a new user and grant the permissions using the following commands:
 
 ```sql
-CREATE USER ‘jawadpashasimpl’@‘localhost’ IDENTIFIED BY ‘Jawad@123’;
-GRANT ALL PRIVILEGES ON quiz. * TO ‘jawadpashasimpl’@‘localhost’;
+CREATE USER ‘jawadpasha’@‘localhost’ IDENTIFIED BY ‘Jawad@123’;
+GRANT ALL PRIVILEGES ON quiz. * TO ‘jawadpasha’@‘localhost’;
 ```
 
 - Go to the** /db** directory and type **mysql -p quiz quiz.sql** to import the tables and records from the **.sql** file.

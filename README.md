@@ -1,7 +1,7 @@
 #  QuizApp_With_JSP-Servlets
-Quiz web application built with JSP, Servlets, and JDBC, with admin and end-user modules integrated
+Quiz web application built with JSP, Servlets, and JDBC, with admin and end-user modules integrated.
 
-######  Tools required: JSP, Servlets, JDBC, Eclipse IDE, MySQL, and Tomcat 9.
+######  Tools required: JSP, Servlets, JDBC, Eclipse IDE, MySQL, and Tomcat 9
 
 Steps to take in order for the application to work properly:
 

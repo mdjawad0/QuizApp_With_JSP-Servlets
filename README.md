@@ -17,7 +17,7 @@ CREATE USER ‘jawadpasha’@‘localhost’ IDENTIFIED BY ‘Jawad@123’;
 GRANT ALL PRIVILEGES ON quiz. * TO ‘jawadpasha’@‘localhost’;
 ```
 
-- Go to the **/db** directory and type **mysql -p quiz quiz.sql** to import the tables and records from the **.sql** file.
+- Go to the **/db** directory and type **mysql -p quiz < quiz.sql** to import the tables and records from the **.sql** file.
 
 ### Step 2: Set up the project with Tomcat and JAR files:
 
